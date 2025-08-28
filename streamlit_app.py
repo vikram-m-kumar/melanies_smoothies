@@ -5,11 +5,9 @@ from snowflake.snowpark.functions import col
 
 
 # Write directly to the app
-st.title(f"My Parents New Healthy Diner")
+st.title(f":cup_with_straw: Customize Your Smoothie! :cup_with_straw:")
 st.write(
-  """Omega 3 & Blueberry Oatmeal
-  Kale, Spinach & Rocket Smoothie
-  Hard-Boiled Free-Range Egg
+  """Choose the fruits you want in your custom Smoothie!
   """)
 
 
@@ -46,5 +44,3 @@ if ingredients_list:
         session.sql(my_insert_stmt).collect()
         
         st.success('Your Smoothie is ordered!', icon="✅")
-
-
