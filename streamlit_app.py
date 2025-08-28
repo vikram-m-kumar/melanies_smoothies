@@ -5,9 +5,11 @@ from snowflake.snowpark.functions import col
 
 
 # Write directly to the app
-st.title(f":cup_with_straw: Customize Your Smoothie! :cup_with_straw:")
+st.title(f"My Parents New Healthy Diner")
 st.write(
-  """Choose the fruits you want in your custom Smoothie!
+  """Omega 3 & Blueberry Oatmeal
+  Kale, Spinach & Rocket Smoothie
+  Hard-Boiled Free-Range Egg
   """)
 
 
